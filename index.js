@@ -23,18 +23,6 @@ module.exports = function (context, options = {}) {
         ],
         "plugins": [
             require("babel-plugin-lodash"),
-        ],
-        "env": {
-            "production": {
-                "presets": [
-                    [
-                        require("babili").default(null, {
-                            removeConsole: true,
-                            removeDebugger: true,
-                        })
-                    ]
-                ]
-            }
-        }
+        ]
     }
 }
