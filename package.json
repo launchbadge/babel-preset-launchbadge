@@ -1,0 +1,28 @@
+{
+    "name": "@launchbadge/babel-preset",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/launchbadge/babel-preset-launchbadge.git"
+    },
+    "keywords": [
+        "babel",
+        "babel-preset"
+    ],
+    "author": "Ryan Leckey <ryan@launchbadge.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/launchbadge/babel-preset-launchbadge/issues"
+    },
+    "homepage": "https://github.com/launchbadge/babel-preset-launchbadge#readme",
+    "dependencies": {
+        "babel-plugin-lodash": "^3.2.11",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-react": "^6.24.1",
+        "babili": "^0.1.4",
+        "react-hot-loader": "^1.3.1"
+    },
+    "peerDependencies": {}
+}
