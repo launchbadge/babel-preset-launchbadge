@@ -25,9 +25,6 @@ module.exports = function (context, options = {}) {
             require("babel-plugin-lodash"),
         ],
         "env": {
-            "development": {
-                "plugins": [require("react-hot-loader/babel")],
-            },
             "production": {
                 "presets": [
                     [
