@@ -1,29 +1,25 @@
 {
-    "name": "@launchbadge/babel-preset",
-    "version": "0.4.0",
-    "description": "",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/launchbadge/babel-preset-launchbadge.git"
-    },
-    "keywords": [
-        "babel",
-        "babel-preset"
-    ],
-    "author": "Ryan Leckey <ryan@launchbadge.com>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/launchbadge/babel-preset-launchbadge/issues"
-    },
-    "homepage": "https://github.com/launchbadge/babel-preset-launchbadge#readme",
-    "dependencies": {
-        "babel-plugin-lodash": "^3.2.11",
-        "babel-preset-env": "^1.6.0",
-        "babel-preset-react": "^6.24.1"
-    },
-    "peerDependencies": {},
-    "devDependencies": {
-        "babel-preset-stage-2": "^6.24.1"
-    }
+  "name": "@launchbadge/babel-preset",
+  "version": "0.4.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/launchbadge/babel-preset-launchbadge.git"
+  },
+  "keywords": ["babel", "babel-preset"],
+  "author": "Ryan Leckey <ryan@launchbadge.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/launchbadge/babel-preset-launchbadge/issues"
+  },
+  "homepage": "https://github.com/launchbadge/babel-preset-launchbadge#readme",
+  "dependencies": {
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "peerDependencies": {},
+  "devDependencies": {}
 }
